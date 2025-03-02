@@ -1,0 +1,210 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* margin: 0;
+    padding: 0; */
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background: url("https://wallpapercave.com/wp/wp9641888.jpg") no-repeat center fixed;
+    background-position: 100%;
+    background-size: cover;
+}
+
+header{
+    
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    margin-top: 10%;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.section-block p {
+    animation: fadeInUp 10s ease-in-out;
+}
+
+main{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+/* .profile, .education {
+    text-align: center;
+} */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table , th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+
+}
+
+tr:nth-child(::-webkit-meter-even-less-good-value) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.section-block {
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.section-block:hover {
+    transform: translateY(-10px);
+}
+
+.nav-bar {
+    transition: transform 0.3s ease;
+}
+
+.nav-bar:hover {
+    transform: translateY(-10px);
+}
+
+.footer-bar {
+    transition: transform 0.3s ease;
+}
+
+.footer-bar :hover{
+    transform: translateY(-10px);
+}
+
+.linkedin-class {
+    color: #ddd;
+}
+
+.linkedin_logo {
+height: 17px;
+width: 17px;
+}
+
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+.tech-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.tech-items {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease , background-colour 0.3s ease;
+    
+}
+
+.tech-items:hover{
+    color: #ddd;
+    transform: translateY(-10px);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* to get the items side by side and small  */
+/* .tech-items img {
+    max-width: 100px;
+} */
+
+/* .tech-items h3 {
+    margin-top: 10px;
+    
+} */
+
+.Professional-experience {
+    margin: 20px 0;
+    text-align: left;
+
+}
+
+.Experience-bar{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-colour 0.3s ease;
+}
+
+.Experience-bar :hover{
+    transform: translateY(-10px);
+    background-color: rgba(0, 0, 0, 0.9);
+
+}
+
+.Experience-bar h3 , .Experience-bar h4 {
+    margin: 0;
+    color: #fff;
+}
+
+.Experience-bar ul {
+    /* list-style-type: none; */
+    padding: 0;
+    color: #fff;
+}
+
+.Experience-bar ul li {
+    margin: 10px 0;
+}
